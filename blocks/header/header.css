@@ -1,0 +1,7 @@
+.header {
+  min-width: calc(1184/1280*100%);
+  margin: 28px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}

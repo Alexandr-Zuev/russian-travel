@@ -1,0 +1,7 @@
+.intro {
+  margin-top: 96px;
+  margin-right: calc(442/1280*100%);
+  margin-bottom: 0;
+  margin-left: calc(148/1280*100%);
+  max-width: 690px;
+}

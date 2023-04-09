@@ -1,0 +1,6 @@
+.photo-grid__item {
+    max-width: 284px;
+    min-height: 213px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
