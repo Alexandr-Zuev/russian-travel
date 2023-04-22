@@ -2,18 +2,18 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 96px; 
+  gap: 96px;
   align-items: center;
 }
 
 @media (max-width: 768px) {
-  .content   {
+  .content {
     gap: 90px; 
   } 
 }
 
 @media screen and (max-width: 730px) {
-  .content   {
+  .content {
     gap: 64px; 
   }
 }
