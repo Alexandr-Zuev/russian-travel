@@ -1,4 +1,22 @@
 .lead__image {
-  width: 984px;
+  max-width: 984px;
   margin: 64px auto 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .lead__image  {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 984px) {
+  .lead__image  {
+    width: 100%;
+  }
+}
+
+@media (max-width: 730px) {
+  .lead__image  {
+    margin-top: 40px;
+  }
 }

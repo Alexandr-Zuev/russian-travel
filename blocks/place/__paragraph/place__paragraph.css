@@ -1,0 +1,21 @@
+.place__paragraph {
+  width: 484px;
+}
+
+@media (max-width: 1040px) {
+  .place__paragraph {
+    width: 456px;
+  }
+}
+
+@media (max-width: 960px) {
+  .place__paragraph {
+    width: 352px;
+  }
+}
+
+@media (max-width: 730px) {
+  .place__paragraph {
+    width: calc(288/320*100%);
+  }
+}

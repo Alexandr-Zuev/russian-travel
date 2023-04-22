@@ -1,5 +1,5 @@
-.lead__caption { 
-  width: 158px;
+.lead__caption {
+  width: 984px;
   height: 14px;
   font-family: 'Inter';
   font-style: normal;
@@ -11,5 +11,17 @@
   color: #FFFFFF;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin: 8px auto 0 0;
+  margin: 8px auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__caption {
+    width: 100%;
+  }
 }

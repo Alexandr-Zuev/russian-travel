@@ -1,7 +1,26 @@
 .intro {
-  margin-top: 96px;
-  margin-right: calc(442/1280*100%);
-  margin-bottom: 0;
-  margin-left: calc(148/1280*100%);
-  max-width: 690px;
+  width: 100%;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .intro {
+    width: calc(720/768*100%);
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .intro {
+    width: calc(288/320*100%);
+  }
+}
+
