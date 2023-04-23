@@ -1,24 +1,24 @@
 .footer {
-  margin: 92px auto 24px auto;
-  width: 92.5%;
+  width: calc(1184/1280*100%);
   max-width: 1184px;
+  margin: 92px auto 24px auto;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .footer {
     width: calc(928/1024*100%);
   }
 }
 
-@media screen and (max-width: 768px) {
-  .footer  {
+@media (max-width: 768px) {
+  .footer {
     width: calc(720/768*100%);
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 640px) {
   .footer  {
     width: 186px;
     height: 310px;

@@ -1,8 +1,9 @@
 .place {
+  width: 100%;
   max-width: 984px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-auto-rows: min-content;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto auto;
   row-gap: 48px;
   column-gap: 40px;
   grid-template-areas:
@@ -10,21 +11,21 @@
     "place__image  place__paragraph";
 }
 
-@media (max-width: 1040px) {
+@media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
     column-gap: 32px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
     column-gap: 28px;
   }
 }
 
-@media (max-width: 730px) {
+@media screen and (max-width: 720px) {
   .place {
     width: 100%;
     display: flex;

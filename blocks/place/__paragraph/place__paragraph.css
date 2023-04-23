@@ -1,21 +1,23 @@
 .place__paragraph {
-  width: 484px;
+  max-width: 484px;
+  width: 100%;
+  grid-area: place__paragraph;
 }
 
-@media (max-width: 1040px) {
+@media screen and  (max-width: 1024px) {
   .place__paragraph {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
-@media (max-width: 960px) {
+@media screen and  (max-width: 768px) {
   .place__paragraph {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
-@media (max-width: 730px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
-    width: calc(288/320*100%);
+    max-width: 288px;
   }
 }

@@ -1,22 +1,27 @@
 .lead__image {
+  width: 100%;
   max-width: 984px;
   margin: 64px auto 0 auto;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .lead__image  {
     max-width: 928px;
+    margin-top: 56px;
   }
 }
 
-@media (max-width: 984px) {
+@media (max-width: 768px) {
   .lead__image  {
-    width: 100%;
+    max-width: 768px;
+    height: calc(100vw * 0.625);
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 720px) {
   .lead__image  {
     margin-top: 40px;
+    
   }
 }

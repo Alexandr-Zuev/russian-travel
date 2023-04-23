@@ -7,8 +7,9 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 92.5%;
-  height: 740px;
+  width: 100%;
+  max-width: 1184px;
+  height: calc(1184px * 0.625);
 }
 
 .cover:hover {
