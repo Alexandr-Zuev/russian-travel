@@ -9,7 +9,7 @@
   position: relative;
   width: 100%;
   max-width: 1184px;
-  height: calc(1184px * 0.625);
+  height: calc(92.5vw * 0.625);
   min-height: 200px;
   margin: 0 48px 0 48px;
 }
@@ -18,18 +18,6 @@
 }
 @media screen and (max-width: 1024px) {
   .cover {
-    height: calc(1024px * 0.625);
- }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    height: calc(768px * 0.625);
- }
-}
-
-@media screen and (max-width: 600px) {
-  .cover {
-    height: 200px;
+    height: calc(100vw * 0.625);
  }
 }
